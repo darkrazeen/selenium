@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+
+<listeners>
+<listener class-name="e2EProject.listeners"/>
+<listener class-name="Resources.ExtentReporterNG"/>
+</listeners>
+
+  <test name="TestTitle">
+    <classes>
+    
+     <class name="cucumberOptions.TestRunner"/>
+     
+     
+    </classes>
+    
+  </test> <!-- Test -->
+  
+ <test name="TestHome">
+    <classes>
+    
+     
+    
+     
+    </classes>
+    
+  </test> <!-- Test -->
+  
+
+ 
+</suite> <!-- Suite -->
+
+
+
+ 
